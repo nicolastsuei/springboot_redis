@@ -28,7 +28,7 @@ public class UserInfoServiceImpl implements UserInfoService{
 
 	//缓存,这里没有指定key.
 	//keyGenerator="myKeyGenerator"
-//	@Cacheable(value="userInfo")
+	@Cacheable(value="userInfo")
 	@Override
 	public UserInfo findById(long id) {
 		System.err.println("UserInfoServiceImpl.findById()=========从数据库中进行获取的....id="+id);
