@@ -29,7 +29,7 @@ public class UserInfoController {
 		System.out.println("cached="+cached);
 		loaded = userInfoService.findById(2);
 		System.out.println("loaded2="+loaded);
-		return "ok--test";	
+		return "ok--test--update";	
     }
 	
 	@RequestMapping("/delete")
