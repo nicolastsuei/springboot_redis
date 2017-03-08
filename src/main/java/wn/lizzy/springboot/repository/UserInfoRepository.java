@@ -1,7 +1,6 @@
 package wn.lizzy.springboot.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 import wn.lizzy.springboot.entity.UserInfo;
 
@@ -12,5 +11,4 @@ import wn.lizzy.springboot.entity.UserInfo;
  *
  *
  */
-@Repository
 public  interface  UserInfoRepository extends CrudRepository<UserInfo,Long> {}
